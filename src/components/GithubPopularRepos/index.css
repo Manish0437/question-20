@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.app-container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+}
+
+.title {
+  font-family: 'Lobster';
+}
+
+.languages-list-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.cust-button {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 16px;
+  font-family: 'Roboto';
+}
+
+.normal-but {
+  border: none;
+  font-family: 'Roboto';
+}
+
+.failure-view-img {
+  width: 150px;
+  height: 100px;
+}
+
+.fail-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Lobster;
+}
+
+
+.repos-list-cont{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
